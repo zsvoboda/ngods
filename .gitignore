@@ -1,0 +1,26 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# data
+data/mariadb/*
+data/minio/*
+data/spark/notebooks/.ipynb_checkpoints
+data/spark/notebooks/metastore_db
+data/spark/notebooks/derby.log
+data/spark/warehouse/*
+data/stage/*
+data/trino/*
+
+# logs
+log/*

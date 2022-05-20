@@ -2,7 +2,7 @@
 # ngods: opensource data stack
 This repository contains Docker compose script that creates opensource data analytics stack on your local machine.  
 
-
+![ngods architecture](https://raw.githubusercontent.com/zsvoboda/main/img/ngods.png)
 
 Currently, the stack consists of multiple components: 
 

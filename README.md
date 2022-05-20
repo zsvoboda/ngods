@@ -1,6 +1,8 @@
 
 # ngods: opensource data stack
-This repository contains Docker compose script that creates opensource data stack on your local machine.  
+This repository contains Docker compose script that creates opensource data analytics stack on your local machine.  
+
+
 
 Currently, the stack consists of multiple components: 
 

@@ -56,7 +56,7 @@ Now we'll load the February 2022 NYC taxi trip data parquet file as a new table 
 
 First, create a new ```nyc``` directory in the ```./data/stage``` directory and download the [February 2022 NYC taxi trips parquet file](https://s3.amazonaws.com/nyc-tlc/trip%20data/fhvhv_tripdata_2022-02.parquet) to it.
 
-Then open the ngods [Spark notebook script](http://localhost:8888/notebooks/notebooks/spark.nyc.taxti.example.ipynb) that loads the data as a new table to the ```bronze``` schema of a ```warehouse`` database.
+Then open the ngods [Spark notebook script](http://localhost:8888/notebooks/notebooks/spark.nyc.taxti.example.ipynb) that loads the data as a new table to the ```bronze``` schema of a ```warehouse``` database.
 
 Now open your SQL console again, connect to the the Trino instance running on your local machine (jdbc url: ```jdbc:trino://localhost:8080```, username: ```trino```, empty database) and execute this SQL queries:
 
